@@ -1,0 +1,88 @@
+/* Narbar  */
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.navbar{
+    position:fixed;
+    width: 100%;
+    background: transparent
+
+}
+
+.show-nav {
+    height:100px;
+}
+
+.nav-links{
+     height:0; 
+    overflow: hidden;
+    transition: var(--mainTransition);
+    list-style-type: none;
+
+}
+
+.nav-links a{
+    display: block;
+    text-align: center;
+
+}
+
+/* Hero  */
+
+.defaultHero, 
+.roomsHero
+{
+    min-height: calc(100vh - 66px);
+    background: url("./images/hero.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.roomsHero{
+    background: url("./images/hero.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner{
+    display: inline-block;
+    background: black;
+    color: grey;
+    padding: 2rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing)
+}
+
+.banner h1{
+    font-size: 2.5rem;
+}
+
+
+.services-center{
+    width: 90vw;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax (255px, 1fr));
+    grid-row-gap: 2rem;
+    grid-column-gap: 50px;
+}
+
+.service span {
+    display: inline-block;
+    color: grey;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+services h6 {
+    letter-spacing: var(--mainSpacing);
+    text-transform: uppercase;
+}
+
+.services p{
+    width: 80%;
+    margin: 0 auto;
+}
