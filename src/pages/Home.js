@@ -8,6 +8,7 @@ import FeaturedRooms from '../components/FeaturedRoooms'
 
 
 
+
 function Home () {
   return (
     <>
