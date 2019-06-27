@@ -475,7 +475,7 @@
   .form-group {
     text-transform: capitalize;
   }
-  .form-group label {
+  .form-grouplable {
     display: block;
     letter-spacing: var(--mainSpacing);
     margin-bottom: 0.5rem;
@@ -495,7 +495,7 @@
     border-radius: 0.3rem;
     margin-right: 0.3rem;
   }
-  .single-extra label {
+  .single-extra lable {
     display: inline-block;
     font-size: 0.8rem;
     margin-left: 0.5rem;

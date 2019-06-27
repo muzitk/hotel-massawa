@@ -68,7 +68,7 @@ class SingleRoom extends Component {
         </div>
       </section>
       
-      <section classRoome="room-extras">
+      <section className="room-extras">
         <h6> Extras</h6>
         <ul className="extras">
           {extras.map((item,index) => {
