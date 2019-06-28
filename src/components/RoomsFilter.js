@@ -68,7 +68,7 @@ let people = getUnique(rooms, 'capacity')
 
                 {/* room price */}
                 <div className="form-group">
-                    <lable htmlfor="price"> 
+                    <lable htmlFor="price"> 
                         Room Price ${price}
                     </lable>
                     <input type="range" name="price" min={minPrice}
@@ -77,6 +77,41 @@ let people = getUnique(rooms, 'capacity')
                      className="form-control" />
                   </div>
                 {/* end of rooms price */}
+
+
+                 {/* Room Size */}
+                 <div className="form-group">
+                    <lable htmlfor="size"> 
+                        Room Size ${price}
+                    </lable>
+                    <div className="size-inputs"></div>
+                    <input type="number" name="minSize" id="size" value={minSize} 
+                     onChange={handleChange}
+                     className="size-input" />
+                     
+                     <input type="number" name="maxSize" id="size" value={maxSize} 
+                     onChange={handleChange}
+                     className="size-input" />
+                  </div>
+                {/* end of rooms size */}
+
+                  {/* Extras */}
+                  <div className="form-group">
+                      <div className="single-extra"> 
+                      <input type="checkbox" name="breakfast" id="breakfast" checked={breakfast}                    
+                       onChange={handleChange}/>
+                      <lable htmlFor="breakfast">Breakfast</lable>
+                      </div>
+                  </div>
+                  <div className="form-group">
+                      <div className="single-extra"> 
+                      <input type="checkbox" name="pets" id="pets" checked={pets}                    
+                       onChange={handleChange}/>
+                      <lable htmlFor="pets">Pets</lable>
+                      </div>
+                  </div>
+                {/* End of Extras */}
+
                  
             </form>
         </section>

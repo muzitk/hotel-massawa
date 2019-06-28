@@ -147,7 +147,8 @@
     .nav-links {
       height: auto;
       display: flex;
-      margin-left: 4rem;
+      margin-left: 15rem;
+      justify-content: center;
     }
     .nav-links a {
       margin: 0 1rem;
