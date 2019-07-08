@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { FaCocktail, FaShuttleVan, FaBeer, FaHiking } from 'react-icons/fa'
+import { FaCocktail, FaShuttleVan, FaBeer, FaHiking, FaSpa } from 'react-icons/fa'
 import Title from './Titles'
 
 class Services extends Component{
@@ -11,15 +11,15 @@ class Services extends Component{
 
           { icon:<FaShuttleVan/>,
             title: "Free Unlimited  rides",
-            info: "join us and get some free drinks on us!"},
+            info: "free shuttle to your destinations!"},
             
-          { icon:<FaBeer/>,
-            title: "Home brewed beer",
-            info: "join us and get some free drinks on us!"},
+          { icon:<FaSpa/>,
+            title: "In house Spa",
+            info: "Come relax with us!"},
 
          { icon:<FaHiking/>,
            title: "Beautiful trails",
-           info: "join us and get some free drinks on us!"},
+           info: "Put on your hiking shoes and grab your bottle of water!"},
             
         ]
     }

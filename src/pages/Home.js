@@ -12,7 +12,7 @@ function Home () {
   return (
     <>
     <Hero>
-      <Banner title="luxurious rooms" subtitle ="delux rooms starting at $299">
+      <Banner title="Hotel Massawa" subtitle ="starting only at $299">
         <Link to = "/rooms" className="btn-primary">Our Rooms</Link>
       </Banner>
     </Hero>

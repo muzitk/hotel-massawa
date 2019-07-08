@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: auto;
     padding: 0;
     box-sizing: border-box;
   }
@@ -160,13 +160,13 @@
   .defaultHero,
   .roomsHero {
     min-height: calc(100vh - 66px);
-    background: url("./images/rooms.jpg") center/cover no-repeat;
+    background: url("./images/hero.jpg") center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .roomsHero {
-    background-image: url("./images/hero.jpg");
+    background-image: url("./images/rooms.jpg");
     min-height: 60vh;
   }
   /* End of Hero */
@@ -191,7 +191,7 @@
     margin: 1.7rem auto;
   }
   .banner p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 2rem;
   }
   @media screen and (min-width: 576px) {
