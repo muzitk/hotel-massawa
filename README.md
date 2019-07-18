@@ -1,2 +1,2 @@
-React applocation that allows users to see rooms and gilter them as well. 
-It utilizes Reac Router for routing, REact context API for state management, contenful headeless CMS for data managment  and firebase
+React application that allows users to see rooms and filter them as well. 
+It utilizes React Router for routing, React context API for state management, contenful headeless CMS for data managment  and is hosted in firebase
